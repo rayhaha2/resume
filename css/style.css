@@ -32,6 +32,7 @@ li {
 
 a {
     text-decoration: none;
+    color: 
 
 }
 /*通用设置*/
@@ -545,13 +546,17 @@ li {
 }
 
 .demo {
-    float: right;
+    word-spacing: 1em;
     margin-top: 50px;
     color: #08c;
+    text-align: right;
+
 }
 
-.demo a {
+.demo a,
+#kkk {
     color: #08c;
+    padding: 0 10px;
 }
 
 .demo a:hover {
@@ -571,6 +576,7 @@ footer {
     margin-top: 100px;
     min-height: 150px;
     text-align: center;
+    color: #666;
 }
 
 
@@ -585,4 +591,9 @@ footer {
     display: inline-block;
     padding: 15px;
 }
+
+.share-group li a {
+    color: #666;
+}
+
 
